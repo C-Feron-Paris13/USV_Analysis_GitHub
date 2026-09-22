@@ -6,7 +6,7 @@ setwd("./usv_data") #code ajousté
 
 fichiers<-list.files() #les fichiers du répertoire courant.
 
-list.files(pattern="*_0.csv")
+# list.files(pattern="*_0.csv") J'ai commenté cette ligne 
 
 # fichiers[1]
 # 
