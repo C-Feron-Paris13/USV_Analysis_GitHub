@@ -1,17 +1,17 @@
 
 ### Développement du script par Gudule ###
 
-setwd("~/Data/Sync_Mega/Enseignement/Master/M1/Systèmes_complexes/USV_data")
+setwd("./usv_data") #code ajousté
 
 fichiers<-list.files() #les fichiers du répertoire courant.
 
 list.files(pattern="*_0.csv")
 
-fichiers[1]
-
-file.info(fichiers[1]) # renvoie un dataframe avec une ligne par fichier et une colonne par attribut de fichier (dates, owner, group, permissions, taille, ...)
-
-fichiers[1]
+# fichiers[1]
+# 
+# file.info(fichiers[1]) # renvoie un dataframe avec une ligne par fichier et une colonne par attribut de fichier (dates, owner, group, permissions, taille, ...)
+# 
+# fichiers[1]
 
 # nom du fichier contient différentes informations "B1_1_4b_plus_60kHz_0.csv"
 # B = condition
